@@ -25,12 +25,11 @@
 
   <body>
     <!-- Navbar -->
-    <nav id="navbar"></nav>
-    <div class="navbar__logo">
-      <i class="fab fa-envira"></i>
-      <a href="#">Jiyoung</a>
-    </div>
-    <div class="navbar__menu">
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <i class="fab fa-envira"></i>
+        <a href="#">Jiyoung</a>
+      </div>
       <ul class="navbar__menu">
         <li class="navbar__menu__item">Home</li>
         <li class="navbar__menu__item">About</li>
@@ -38,7 +37,21 @@
         <li class="navbar__menu__item">Work</li>
         <li class="navbar__menu__item">Contact</li>
       </ul>
-    </div>
+    </nav>
+    <!-- Home -->
+    <section id="home">
+      <img
+        src="imgs/profile.png"
+        alt="Jiyoung's Profile Photo"
+        class="home__avatar"
+      />
+      <h1 class="home__title">Hello, <br />I'm Jiyoung</h1>
+      <h2 class="home__description">
+        React, React Hooks를 중심으로 Web 개발이 가능한 프론트엔드 개발자
+        문지영입니다.
+      </h2>
+      <button class="home__contact">Contact Me</button>
+    </section>
     <!-- About -->
     <section id="about"></section>
     <!-- Skills -->
