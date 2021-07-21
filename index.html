@@ -53,7 +53,7 @@
       <button class="home__contact">Contact Me</button>
     </section>
     <!-- About -->
-    <section id="about">
+    <section id="about" class="section">
       <h1>About me</h1>
       <p>
         React, React Hooks를 중심으로 Web 개발이 가능한 프론트엔드 개발자
@@ -75,7 +75,7 @@
           <div class="major__icon">
             <i class="fab fa-react"></i>
           </div>
-          <div class="major__title">Strong</div>
+          <h2 class="major__title">Strong</h2>
           <div class="major__description">
             React, React Hooks, JavaScript, HTML, CSS
           </div>
@@ -84,7 +84,7 @@
           <div class="major__icon">
             <i class="fab fa-node"></i>
           </div>
-          <div class="major__title">Knowledgeable</div>
+          <h2 class="major__title">Knowledgeable</h2>
           <div class="major__description">
             Node.js, Express, MySQL, SequelizeORM
           </div>
@@ -93,7 +93,7 @@
           <div class="major__icon">
             <i class="fab fa-dev"></i>
           </div>
-          <div class="major__title">Etc</div>
+          <h2 class="major__title">Etc</h2>
           <div class="major__description">
             AWS EC2, AWS RDS, Slack, Notion, Git
           </div>
@@ -106,8 +106,10 @@
             alt="codestates"
             class="education__logo"
           />
-          <p class="education__name">코드스테이츠(Code States)</p>
-          <p class="education__period">2020.09 - 2021.07</p>
+          <div class="education__description">
+            <p class="education__name">코드스테이츠(Code States)</p>
+            <p class="education__period">2020.09 - 2021.07</p>
+          </div>
         </div>
         <div class="education">
           <img
@@ -115,8 +117,10 @@
             alt="hufs"
             class="education__logo"
           />
-          <p class="education__name">한국외국어대학교 국제지역대학원</p>
-          <p class="education__period">2016.08 - 2018.08</p>
+          <div class="education__description">
+            <p class="education__name">한국외국어대학교 국제지역대학원</p>
+            <p class="education__period">2016.08 - 2018.08</p>
+          </div>
         </div>
         <div class="education">
           <img
@@ -124,13 +128,15 @@
             alt="hufs"
             class="education__logo"
           />
-          <p class="education__name">한국외국어대학교</p>
-          <p class="education__period">2009.03 - 2015.08</p>
+          <div class="education__description">
+            <p class="education__name">한국외국어대학교</p>
+            <p class="education__period">2009.03 - 2015.08</p>
+          </div>
         </div>
       </div>
     </section>
     <!-- Work -->
-    <section id="work">
+    <section id="work" class="section">
       <h1>My work</h1>
       <h3>Projects</h3>
       <div class="work__categories">
@@ -197,7 +203,7 @@
       </div>
     </section>
     <!-- Contact -->
-    <section id="contact">
+    <section id="contact" class="section">
       <h1 class="contact__title">Let's talk</h1>
       <h2 class="contact__email">jymoon224@gmail.com</h2>
       <div class="contact__links">
