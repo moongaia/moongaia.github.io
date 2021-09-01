@@ -1,4 +1,18 @@
 "use strict";
+// title typing animation added
+const content = "Hello, \n I'm JiYoung";
+const text = document.querySelector(".home__title");
+let i = 0;
+
+function typing() {
+  let txt = content[i++];
+  text.innerHTML += txt === "\n" ? "<br/>" : txt;
+  if (i > content.length) {
+    text.textContent = "";
+    i = 0;
+  }
+}
+setInterval(typing, 300);
 
 // Make Navbar transparent when it is on the top
 const navbar = document.querySelector("#navbar");
