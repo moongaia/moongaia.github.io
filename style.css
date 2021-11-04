@@ -42,7 +42,7 @@
 
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "GowunDodum-Regular";
   cursor: default;
 }
 
@@ -110,7 +110,7 @@ p {
 }
 
 #navbar.navbar--dark {
-  background-color: var(--color-green);
+  background-color: #a37156;
   padding: 8px;
 }
 
@@ -134,8 +134,9 @@ p {
 }
 
 .navbar__menu__item:hover {
+  color: black;
   border-color: var(--color-white);
-  background-color: var(--color-light-green);
+  background-color: #f7e5dc;
 }
 
 .navbar__toggle-btn {
@@ -149,9 +150,32 @@ p {
 
 /* Home */
 #home {
-  background: url(imgs/home-background.png) center/cover no-repeat;
+  /* background: url(imgs/home-background.png) center/cover no-repeat; */
+  background-color: #cba38f;
   padding: 40px;
   text-align: center;
+  position: relative;
+}
+
+.custom-shape-divider-bottom-1636032293 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1636032293 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 54px;
+}
+
+.custom-shape-divider-bottom-1636032293 .shape-fill {
+  fill: #ffffff;
 }
 
 .home__avatar {
@@ -181,7 +205,7 @@ p {
 }
 
 .home__contact:hover {
-  background-color: var(--color-light-green);
+  background-color: #a37156;
 }
 
 /* Section common */
@@ -199,7 +223,7 @@ p {
 /* About */
 .about__majors {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 80px 0;
 }
 
@@ -209,8 +233,8 @@ p {
   line-height: 170px;
   font-size: 70px;
   margin: auto;
-  color: var(--color-blue);
-  border: 1px solid var(--color-blue);
+  color: #9ec4b2;
+  border: 1px solid #9ec4b2;
   border-radius: 50%;
   margin-bottom: 16px;
 }
@@ -220,7 +244,7 @@ p {
 }
 
 .major__icon:hover i {
-  color: var(--color-green);
+  color: #6a8e7d;
   transform: rotate(-30deg) scale(1.1);
 }
 
@@ -231,16 +255,18 @@ p {
 
 .major__description {
   font-size: var(--font-small);
+  padding: 8px;
 }
 
 .education {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 .education__description {
   margin: 0 16px;
-  text-align: left;
+  text-align: center;
 }
 
 .education__logo {
@@ -276,7 +302,7 @@ p {
 
 .category__btn.selected,
 .category__btn:hover {
-  background-color: var(--color-green);
+  background-color: #cba38f;
   color: var(--color-white);
 }
 
@@ -287,7 +313,7 @@ p {
 }
 
 .category__count {
-  background-color: var(--color-light-green);
+  background-color: #a37156;
   border-radius: 50%;
   color: var(--color-white);
   width: 24px;
@@ -322,7 +348,8 @@ p {
   width: 200px;
   height: 250px;
   margin: 2px;
-  background-color: var(--color-light-white);
+  background-color: #f7e5dc;
+  border-radius: 5px;
 }
 
 .project.invisible {
@@ -371,7 +398,28 @@ p {
 
 /* Contact */
 #contact {
-  background-color: var(--color-green);
+  background-color: #9ec4b2;
+  position: relative;
+}
+
+.custom-shape-divider-top-1636031671 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1636031671 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 34px;
+}
+
+.custom-shape-divider-top-1636031671 .shape-fill {
+  fill: #ffffff;
 }
 
 .contact__title,
@@ -404,7 +452,7 @@ p {
   height: 70px;
   font-size: 50px;
   color: var(--color-white);
-  background-color: var(--color-green);
+  background-color: #61855c;
   border-radius: 50%;
   opacity: 0;
   pointer-events: none;

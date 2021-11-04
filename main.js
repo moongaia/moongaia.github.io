@@ -1,6 +1,6 @@
 "use strict";
 // title typing animation added
-const content = "Hello, \n I'm JiYoung";
+const content = "Hello, \n I'm Jiyoung :)";
 const text = document.querySelector(".home__title");
 let i = 0;
 
